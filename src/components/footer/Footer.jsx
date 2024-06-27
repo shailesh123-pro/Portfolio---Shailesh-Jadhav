@@ -20,7 +20,7 @@ const Footer = () => {
       <div className="footer__social">
         <a href="#" target='_blank'><FaFacebookF/></a>
         <a href="#" target='_blank'><BsInstagram/></a>
-        <a href='https://www.linkedin.com/in/shailesh-jadhav-798045268/' target="_blank"><BsLinkedin/></a>
+        <a href='https://www.linkedin.com/in/shailesh-jadhav-798045268/' rel="noreferrer" target="_blank"><BsLinkedin/></a>
         
       </div>
 

@@ -1,6 +1,5 @@
 import React from "react";
 import "./about.css";
-import aboutme from "../../assests/aboutme.jpeg";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscNewFolder } from "react-icons/vsc";
@@ -38,6 +37,7 @@ const About = () => {
               <a
                 href="https://drive.google.com/drive/u/0/folders/1QHc9MCTY6jaaJXBgWJRlbI8sTWa6eZXX"
                 target="_blank"
+                rel="noreferrer"
               >
                 <h5 className="under">Certificates</h5>
               </a>

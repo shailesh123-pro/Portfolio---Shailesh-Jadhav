@@ -30,19 +30,19 @@ const Contact = () => {
             <HiOutlineMail className='contact_option-icon'/>
             <h4>Email</h4>
             <h5>shaileshjadhav2021@gmail.com</h5>
-            <a href="mailto:shaileshjadhav2021@gmail.com" target='_blank'>Send a message</a>
+            <a href="mailto:shaileshjadhav2021@gmail.com" rel="noreferrer" target='_blank'>Send a message</a>
           </article>
           <article className='contact_option'>
             <SiMessenger className='contact_option-icon'/>
             <h4>Linkedin</h4>
             <h5>Shailesh Jadhav</h5>
-            <a href="https://www.linkedin.com/in/shailesh-jadhav-798045268/" target='_blank'>Send a message</a>
+            <a href="https://www.linkedin.com/in/shailesh-jadhav-798045268/" rel="noreferrer" target='_blank'>Send a message</a>
           </article>
           <article className='contact_option'>
             <FaWhatsapp className='contact_option-icon'/>
             <h4>WhatsApp</h4>
             <h5>Shailesh Jadhav</h5>
-            <a href="https://api.whatsapp.com/send?phone=9579555209" target='_blank'>Send a message</a>
+            <a href="https://api.whatsapp.com/send?phone=9579555209" rel="noreferrer" target='_blank'>Send a message</a>
           </article>
         </div>
         {/* End of contact option */}

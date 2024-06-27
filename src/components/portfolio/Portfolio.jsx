@@ -1,6 +1,6 @@
 import React from 'react'
 import './portfolio.css'
-import dmc from '../../assests/News Application.png'
+import dmc from '../../assests/Project-Final.png'
 import NM from '../../assests/NM.png'
 const portfolio = () => {
   return (
@@ -13,10 +13,10 @@ const portfolio = () => {
           <div className="portfolio__item-image">
             <img src={dmc} alt="" />
           </div>
-          <h3>News Application</h3>
+          <h3>Water Supply Management</h3>
           <div className='portfolio__item-cta'>
-          <a href="https://github.com/shailesh123-pro/NewsApp" className='btn' target="_blank">GitHub</a>
-          {/* <a href="https://techspy.netlify.app/" className='btn btn-primary' target="_blank">Live Demo</a> */}
+          <a href="https://github.com/shailesh123-pro/Final-Year-Project" className='btn' rel="noreferrer" target="_blank">GitHub</a>
+          <a href="https://techspy.netlify.app/" className='btn btn-primary' rel="noreferrer" target="_blank">Live Demo</a>
           </div>
         </article>
 
@@ -26,8 +26,8 @@ const portfolio = () => {
           </div>
           <h3>Note Reminder</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com/shailesh123-pro/inotebook" className='btn' target="_blank">GitHub</a>
-          {/* <a href="https://monumental-swan-077d2d.netlify.app/" className='btn btn-primary' target="_blank">Live Demo</a> */}
+          <a href="https://github.com/shailesh123-pro/inotebook" className='btn' rel="noreferrer" target="_blank">GitHub</a>
+          <a href="https://monumental-swan-077d2d.netlify.app/" className='btn btn-primary' rel="noreferrer" target="_blank">Live Demo</a>
           </div>
         </article>
       </div>
