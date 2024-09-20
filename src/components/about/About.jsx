@@ -13,7 +13,11 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={p2} alt="" />
+            {/* <img src={p2} alt="" /> */}
+            <h1>
+              Hello, my name is Shailesh Jadhav. I am an Associate Software
+              Engineer at Inspacco.
+            </h1>
           </div>
         </div>
 
@@ -23,13 +27,16 @@ const About = () => {
               <FaAward className="about__icon" />
 
               <h5>Education</h5>
-              <small>Pursuing B.E. in Computer Engineering at AISSMS COE,Pune</small>
+              <small>
+                Pursuing B.E. in Computer Engineering at AISSMS COE,Pune
+              </small>
             </article>
 
             <article className="about__card">
               <FiUsers className="about__icon" />
-              <h5>Experience/Current-role</h5>
-              <small>Sophomore</small>
+              <h5>Experience</h5>
+              <h6>Software Engineer</h6>
+              <small>Inspacco</small>
             </article>
 
             <article className="about__card">
@@ -46,13 +53,14 @@ const About = () => {
 
           <p>
             Hello, I am Shailesh Jadhav and I am a web developer currently
-            pursuing my B.E. in Computer Engineering at All India Shri Shivaji Memorial Society's Collage of Engineering,Pune. I live in Beed. I am a passionate
-            coder who desires to learn, experiment, and explore technical,
-            analytical, and problem-solving skills and has an interest in
-            solving various algorithm problems. I have a keen interest in Data
-            Structures, Algorithms and Problem-solving . I spend most of my day on
-            experimenting with HTML, CSS and Javascript. I enjoy coding and the challenge of learning
-            something new everyday.
+            pursuing my B.E. in Computer Engineering at All India Shri Shivaji
+            Memorial Society's Collage of Engineering,Pune. I live in Beed. I am
+            a passionate coder who desires to learn, experiment, and explore
+            technical, analytical, and problem-solving skills and has an
+            interest in solving various algorithm problems. I have a keen
+            interest in Data Structures, Algorithms and Problem-solving . I
+            spend most of my day on experimenting with HTML, CSS and Javascript.
+            I enjoy coding and the challenge of learning something new everyday.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

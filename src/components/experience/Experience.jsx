@@ -50,6 +50,20 @@ const experience = () => {
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>TypeScript</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Redux</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
 
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
@@ -129,6 +143,14 @@ const experience = () => {
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>GitHub</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Parsh Dashboard</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>

@@ -16,7 +16,7 @@ const portfolio = () => {
           <h3>Water Supply Management</h3>
           <div className='portfolio__item-cta'>
           <a href="https://github.com/shailesh123-pro/Final-Year-Project" className='btn' rel="noreferrer" target="_blank">GitHub</a>
-          <a href="https://techspy.netlify.app/" className='btn btn-primary' rel="noreferrer" target="_blank">Live Demo</a>
+          <a href=" " className='btn btn-primary' rel="noreferrer" target="_blank">Live Demo</a>
           </div>
         </article>
 
