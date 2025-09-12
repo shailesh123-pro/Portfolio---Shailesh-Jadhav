@@ -15,8 +15,7 @@ const About = () => {
           <div className="about__me-image">
             {/* <img src={p2} alt="" /> */}
             <h1>
-              Hello, my name is Shailesh Jadhav. I am an Associate Software
-              Engineer at Inspacco.
+              Hello, my name is Shailesh Jadhav. I am Specialist Programmer.
             </h1>
           </div>
         </div>
@@ -37,6 +36,13 @@ const About = () => {
               <h5>Experience</h5>
               <h6>Software Engineer</h6>
               <small>Inspacco</small>
+            </article>
+
+            <article className="about__card">
+              <FiUsers className="about__icon" />
+              <h5>Experience</h5>
+              <h6>Specialist</h6>
+              <small>Infosys</small>
             </article>
 
             <article className="about__card">

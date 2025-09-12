@@ -1,170 +1,36 @@
 import React from "react";
 import "./experience.css";
 import { BsFillPatchCheckFill } from "react-icons/bs";
+import { FiUsers } from "react-icons/fi";
 const experience = () => {
   return (
     <section id="experience">
-      <h5>What Skills I Have</h5>
-      <h2>My Experiences</h2>
+      <h2>Professional Experience</h2>
 
       <div className="container experience__container">
-        <div className="experience__frontend">
-          <h3>Web Technologies</h3>
-          <div className="experience__content">
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
-              </div>
+        {/* <div className="experience__frontend"> */}
+          {/* <div className="experience__content"> */}
+            <article className="about__card">
+              <FiUsers className="about__icon" />
+              <h5>Experience</h5>
+              <h6>Inspacco</h6>
+              <small>Associate Software Engineer</small>
             </article>
-
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>CSS</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>JavaScript</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>React JS</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>BootStrap</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>TypeScript</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>Redux</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>MySQL</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>NodeJs</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>GraphQL</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-          </div>
-        </div>
+          {/* </div> */}
+        {/* </div> */}
 
         {/* end of Frontend */}
-        <div className="experience__backend">
-          <h3>Programming Languages </h3>
-          <div className="experience__content">
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>C++</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>JAVA</h4>
-                <small className="text-light">Basics</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>Python</h4>
-                <small className="text-light">Basics</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>JavaScript</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
+        {/* <div className="experience__backend"> */}
+          {/* <div className="experience__content"> */}
+            <article className="about__card">
+              <FiUsers className="about__icon" />
+              <h5>Experience</h5>
+              <h6>Infosys</h6>
+              <small>Specialist Programmer</small>
             </article>
           </div>
-        </div>
-        {/* Tools */}
-        <div className="experience__backend">
-          <h3>Tools and Frameworks </h3>
-          <div className="experience__content">
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>VS Code</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>GitHub</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>Parsh Dashboard</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-
-            {/* <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>Intellij IDE</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article> */}
-          </div>
-        </div>
-      </div>
+        {/* </div> */}
+      {/* </div> */}
     </section>
   );
 };
