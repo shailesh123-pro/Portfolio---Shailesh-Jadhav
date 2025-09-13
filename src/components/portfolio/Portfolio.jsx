@@ -50,7 +50,7 @@ const portfolio = () => {
               GitHub
             </a>
             <a
-              href="/"
+              href="https://inotebook123.vercel.app/"
               className="btn btn-primary"
               rel="noreferrer"
               target="_blank"
@@ -58,6 +58,14 @@ const portfolio = () => {
               Live Demo
             </a>
           </div>
+          {/* Description below */}
+          <small className="text-sm text-gray-600">
+            i-Notebook is a simple and efficient note-taking web application
+            built with React.js and Node.js. It allows you to easily add, edit,
+            and delete notes, helping you organize your ideas and tasks in one
+            place. With its clean interface and responsive design, managing your
+            notes becomes quick and hassle-free.
+          </small>
         </article>
 
         <article className="portfolio__item">
